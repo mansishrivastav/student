@@ -1,0 +1,26 @@
+
+.show-container{
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    margin-bottom: 20px; 
+}
+h4{color: #EA2027;}
+.card-title{color: #1B1464;}
+.delete-button{
+    color:#c23616;
+    border: 1px solid #c23616;
+    background-color: #ffff;
+    padding:2px 5px ;
+    border-radius:5px;
+}
+.delete-button:hover{
+    background-color:#c23616;
+     color: #ffff;
+}
+.del{text-align: center;}
